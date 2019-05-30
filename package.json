@@ -1,0 +1,29 @@
+{
+  "name": "chat-nodejs-b2-ynov",
+  "version": "1.0.0",
+  "description": "an online chat with admin interface using NodeJS",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrZyr0/Chat-NodeJS-B2-YNOV.git"
+  },
+  "keywords": [
+    "websocket",
+    "chat"
+  ],
+  "author": "Julien SEIXAS (Zyr0)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MrZyr0/Chat-NodeJS-B2-YNOV/issues"
+  },
+  "homepage": "https://github.com/MrZyr0/Chat-NodeJS-B2-YNOV#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "pug": "^2.0.3",
+    "uuid": "^3.3.2",
+    "ws": "^7.0.0"
+  }
+}
