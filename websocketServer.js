@@ -127,13 +127,13 @@ function getUserFromUserId(id) {
 }
 
 
-setTimeout(() => {
-    sendMessageToId(_db_users[0].id, 'Valley', 'Hello, I\'m Valley. I transfere your question to the french support')
-}, 5000);
+// setTimeout(() => {
+//     sendMessageToId(_db_users[0].id, 'Valley', 'Hello, I\'m Valley. I transfere your question to the french support')
+// }, 5000);
 
-setTimeout(() => {
-    sendMessageToId(_db_users[0].id, 'Nadia', 'Bonjour, je suis Nadia. C\'est moi qui vais prendre en charge votre dossier.\nQue puis-je faire pour vous ?')
-}, 7000);
+// setTimeout(() => {
+//     sendMessageToId(_db_users[0].id, 'Nadia', 'Bonjour, je suis Nadia. C\'est moi qui vais prendre en charge votre dossier.\nQue puis-je faire pour vous ?')
+// }, 7000);
 
 // setTimeout(() => {
 //     sendMessageToId(_db_users[1].id, 'Valley', 'Hello, I\'m Valley. I transfere your question to the french support')
